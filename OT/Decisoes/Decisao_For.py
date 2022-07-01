@@ -1,0 +1,1 @@
+tabuada = int(input("Digite um numero para exibir a tabuada: "))
