@@ -12,3 +12,4 @@ while resposta == "S":
 
 for equipamento in equipamentos:
     print("Equipamento: ", equipamento)
+
