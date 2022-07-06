@@ -1,3 +1,4 @@
+equipamento = []
 inventario = []
 resposta = "S"
 while resposta == "S":
@@ -35,4 +36,4 @@ for elemento in inventario:
     print("Nome.........: ", elemento[0])
     print("Valor........: ", elemento[1])
     print("Serial.......: ", elemento[2])
-    print("Departamento.:",  elemento[3])
+    print("Departamento.: ",  elemento[3])
