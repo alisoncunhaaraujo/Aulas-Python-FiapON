@@ -2,10 +2,10 @@ equipamento = []
 inventario = []
 resposta = "S"
 while resposta == "S":
-    equipamento.append[input("Equipamento: "),
-                       float(input("Valor: ")),
-                       int(input("Numero Serial: ")),
-                       input("Departamento: ")]
+    equipamento.append([input("Equipamento: "),
+                        float(input("Valor: ")),
+                        int(input("Numero Serial: ")),
+                        input("Departamento: ")])
     inventario.append(equipamento)
     resposta = input("Digite \"S\" para continuar: ").upper()
 
@@ -19,7 +19,7 @@ busca = input("\nDigite o nome do equipamento que deseja buscar: ")
 for elemento in inventario:
     if busca == elemento[0]:
         print("Valor..: ", elemento[1])
-        print("Serial.:",  elemento[2])
+        print("Serial.:", elemento[2])
 
 depreciacao = input("\nDigite o nome do equipamento que será depreciado: ")
 for elemento in inventario:
@@ -36,4 +36,4 @@ for elemento in inventario:
     print("Nome.........: ", elemento[0])
     print("Valor........: ", elemento[1])
     print("Serial.......: ", elemento[2])
-    print("Departamento.: ",  elemento[3])
+    print("Departamento.: ", elemento[3])
